@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+  <title></title>
+</head>
+<body>
+  <h3>World City Time Converter</h3>
+  <div id="map" class="row">loading...</div> <br>
+  <div class="container">
+    <div class="six columns" id="time"></div>
+    <div class="six columns" id="converted"></div>
+    <div class="row">
+      <form class="eight columns" id = "form1" >
+        City Name:
+        <input type="text" name="CityName" value="London">
+        <button class="button-primary" type="button" name="button" onclick = "myFunction()">Submit</button>
+      </form>
+      <div id="tz" class="four columns">
+        Time Zone:
+      </div>
+    </div>
+
+    <script src="moment/moment.js"></script>
+    <script src="moment/moment-with-locales.js"></script>
+    <script src="moment/moment-timezone-with-data-2010-2020.js"></script>
+    <script src="moment/moment-timezone.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDNGnZS3lFLPw1DLC_5gAT5F_9hga1c-k"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="code.js"></script>
+  </div>
+</body>
+</html>

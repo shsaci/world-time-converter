@@ -1,0 +1,27 @@
+html, body {
+  background-color: #d2671e;
+  height: 100%;
+  /*margin: 0;*/
+  font-family: 'Prompt', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: #1200FF;
+}
+
+#map {
+  height: 65%;
+  margin-top: 0;
+}
+
+.container {
+  color: #1200FF;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+#form1 {
+  margin-top: 25px;
+}
