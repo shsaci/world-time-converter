@@ -57,7 +57,7 @@ function newCityTz() {
   var time = moment()
   var newCity = time.clone().tz(value);
   var converted = newCity.format('MMMM Do YYYY, h:mm:ss a');
-  document.getElementById('converted').innerHTML = "New City time: " + converted;
+  document.getElementById('converted').innerHTML = "Converted time: " + converted;
 }
 
 // find and display NZ time
