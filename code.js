@@ -57,14 +57,14 @@ function newCityTz() {
   var time = moment()
   var newCity = time.clone().tz(value);
   var converted = newCity.format('MMMM Do YYYY, h:mm:ss a');
-  document.getElementById('converted').innerHTML = "Local time: " + converted;
+  document.getElementById('converted').innerHTML = "New City time: " + converted;
 }
 
 // find and display NZ time
 function updateLocalClock(){
   var now = moment();
   var nz = now.format('MMMM Do YYYY, h:mm:ss a');
-  document.getElementById('time').innerHTML = "NZ time: " + nz;
+  document.getElementById('time').innerHTML = "Local time: " + nz;
 }
 
 // Update local and new city clocks
