@@ -60,7 +60,7 @@ function newCityTz() {
   document.getElementById('converted').innerHTML = "Converted time: " + converted;
 }
 
-// find and display NZ time
+// find and display Local time
 function updateLocalClock(){
   var now = moment();
   var nz = now.format('MMMM Do YYYY, h:mm:ss a');
